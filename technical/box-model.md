@@ -20,7 +20,7 @@ When defining the **values** for **margin,** and **padding** there are a few way
 
 This will apply the value to **each side**.
 
-```css
+```
 ul li {
     padding: 10px;
 }
@@ -28,7 +28,7 @@ ul li {
 
 ### Property name for the **specific side** you want to edit and supply **a single value**
 
-```css
+```
 ul li {
     padding-left: 10px;
 }
@@ -42,7 +42,7 @@ ul li {
 
 That is, starting with the **left side** the numbers follow along the edge of the box in a **clockwise** manner..
 
-```css
+```
 ul li {
     padding: 10px 0 10px 0;
 }

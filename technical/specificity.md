@@ -18,7 +18,7 @@ For a number **ABC**,
 
 An illustration can be seen here:
 
-```css
+```
 *            /* a=0 b=0 c=0 -> specificity = 0   */
 LI           /* a=0 b=0 c=1 -> specificity = 1   */
 UL LI        /* a=0 b=0 c=2 -> specificity = 2   */
