@@ -22,5 +22,17 @@ body {
 
 **The order matters**: starting with the **left-most** mentioned name, the browser will attempt to render the selected elements' text using that font. This means that the **right-most** font that is mentioned is to be used as a **fail-safe.**
 
-\*\*\*\*
+## [Text Properties](https://www.w3schools.com/css/css_text.asp)
+
+Some important text properties to be aware of are:
+
+| Property Name |
+| :--- |
+| text-indent |
+| letter-spacing |
+| word-spacing |
+| text-decoration |
+| text-align |
+| text-transform |
+| vertical-align |
 
