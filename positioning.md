@@ -34,5 +34,56 @@ The difference is that **Absolute** is **relative to the body** of the document,
 
 ## Float
 
+**Remove** from the **default flow** to the left or right, allowing content to flow around it.
+
+If there are three `<div>`'s positioned like so:
+
+```markup
+<html>
+    <head>
+        <style>
+            p {
+                width: 50px;
+                border: 1px black solid;
+            }
+            .container {
+                width: 200px;
+            }
+            .one {
+                color: red;
+            }
+            .two {
+                color: green;
+            }
+            .three {
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="one"><p>one</p></div>
+            <div class="two"><p>two</p></div>
+            <div class="three"><p>three</p></div>
+        </div>
+    </body>
+</html>
+```
+
+![](.gitbook/assets/image%20%285%29.png)
+
+This results in three `<div>` blocks flowing one after the other. If the first  and second one were to be `float`'ed to the `left`, the result would be:
+
+![](.gitbook/assets/image%20%286%29.png)
+
+Here we can see '**one'** and '**two'** having been both removed from the natural **document flow** and **'three'** placing its content as closely as it can to where it ought to as the only remaining element in the **document flow**. 
+
+{% hint style="danger" %}
+`<div>`'s and `<p>`'s probably are **not the best example** to use for this...
+{% endhint %}
+
 ## Clear
+
+Resets the **position of an element** to where it'd normally fall in the **document flow.** 
 
